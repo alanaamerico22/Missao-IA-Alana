@@ -1,3 +1,9 @@
+
+
+
+
+
+
 const perguntas = [
     {
         enunciado: "Como você controla os gastos mensais?",
