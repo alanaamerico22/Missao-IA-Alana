@@ -26,14 +26,14 @@ const perguntas = [
                 texto: "Guardar parte para uma reserva de emergência ou objetivo futuro.",
                 afirmacao: “Você vê esse recurso como uma oportunidade de fortalecer sua segurança financeira.”,
             },
-            {
-                texto: " Usar imediatamente para pagar dívidas ou realizar algum desejo imediato.”",
-                afirmacao: "Você prefere aplicar o valor onde ele trará alívio imediato ou satisfação pessoal.",
-            }
-        ]
-    },
     {
-        enunciado: "Como você costuma decidir quanto vai poupar a cada mês?",
+        texto: " Usar imediatamente para pagar dívidas ou realizar algum desejo imediato.”",
+        afirmacao: "Você prefere aplicar o valor onde ele trará alívio imediato ou satisfação pessoal.",
+    }
+]
+    },
+{
+    enunciado: "Como você costuma decidir quanto vai poupar a cada mês?",
         alternativas: [
             {
                 texto: "Definir um percentual fixo da renda (ex.: 15 % do salário)",
@@ -44,9 +44,9 @@ const perguntas = [
                 afirmacao: "Você prefere adaptar a poupança à realidade de cada período, ajustando‑se às variações de gasto.",
             }
         ]
-    },
-    {
-        enunciado: "Quando recebe um crédito em cartão de loja, qual a sua postura?",
+},
+{
+    enunciado: "Quando recebe um crédito em cartão de loja, qual a sua postura?",
         alternativas: [
             {
                 texto: "Pagar a fatura integralmente no vencimento para evitar juros.",
@@ -57,9 +57,9 @@ const perguntas = [
                 afirmacao: "Você valoriza a flexibilidade de fluxo de caixa, aceitando pagar juros futuros para resolver prioridades atuais.",
             }
         ]
-    },
-    {
-        enunciado: "Qual estratégia você usa para controlar gastos supérfluos?",
+},
+{
+    enunciado: "Qual estratégia você usa para controlar gastos supérfluos?",
         alternativas: [
             {
                 texto: "Criar “limites de despesa” por categoria (lazer, delivery, roupas) em um aplicativo de orçamento.",
@@ -70,14 +70,14 @@ const perguntas = [
                 afirmacao: "Você acredita que o intervalo de tempo reduz compras impulsivas e ajuda a refletir sobre prioridades.",
             }
         ]
-    },
+},
 ];
 
 
 let atual = 0;
 let perguntaAtual;
 
-function mostraPergunta(){
+function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
 }
