@@ -106,7 +106,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Se fosse possível manter suas contas sob controle"
+    caixaPerguntas.textContent = "Se fosse possível manter suas contas sob controle, o resultado final poderá valer a pena?"
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
